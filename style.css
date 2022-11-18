@@ -1,27 +1,29 @@
 body{
-    background-color: white;
+    background-image: url("images/bg.webp");
+    background-size:1366px 1308px;;
+    background-repeat: no-repeat;
 }
 p{
-    color: black;
+    color: orange;
 }
 .info{
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
+    border-bottom: 1px solid orange;
+    border-top: 1px solid orange;
     text-transform: capitalize;
-    color: black;
+    color: orange;
 }
 h2{
     text-transform: capitalize;
-    color: black;
+    color: orange;
 }
 .heading-1{
     font-size: 30px;
     font-weight: 550;
-    color: black;  
+    color: orange;  
 }
 .page-1-ul{
-    border-bottom: 1px solid black;
-    color: black;
+    border-bottom: 1px solid orange;
+    color: orange;
 }
 .image-2{
    margin: 15px; 
@@ -41,6 +43,9 @@ h2{
     font-weight: 200;
 }
 .page-1-ul-2{
-   list-style-image: url("images/bullets\ 2.jpg");
+   list-style-image: url("images/4.png");
    height: 50px;
+   font-size: 20px;
+   
+   
 }
