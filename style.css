@@ -1,10 +1,4 @@
-.page1{ 
-    background-image: url("images/bg.jpg");
-    background-size:cover;
-    height: 100vh;
-    margin: 0;
-    background-repeat: no-repeat;
-}
+
 .heading{
     height: 79px;
     width: 1312px;
@@ -118,7 +112,7 @@ cursor: pointer;
     grid-template-columns: auto auto;
     padding-bottom: 20px;
     font-size: 20px;
-    border-bottom:2px solid black ;
+    border-bottom:2px solid orange ;
 
  }
  .list2{
@@ -127,7 +121,7 @@ cursor: pointer;
     grid-template-columns: auto auto;
     padding-bottom: 20px;
     font-size: 20px;
-    border-bottom:2px solid black ;
+    border-bottom:2px solid orange ;
 
  }
  .list3{
@@ -140,7 +134,7 @@ cursor: pointer;
  .html-heading{
     font-family: 'Times New Roman', Times, serif;
     text-transform: capitalize;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid orange;
  }
  .list4{
     display: grid;
@@ -148,7 +142,7 @@ cursor: pointer;
     grid-template-columns: auto auto auto;
     padding-bottom: 20px;
     font-size: 20px; 
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid orange;
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
  }
@@ -156,5 +150,38 @@ cursor: pointer;
     color: red;
     font-weight: 900;
     font-size: 22px;
-    
+ }
+ .html{
+   padding-left: 6px;
+ }
+ .body{
+   padding-left: 20px;
+ }
+ .p-tage{
+   padding-left: 30px;
+ }
+ .code-input{
+   font-size: 20px;
+   font-weight: 500;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ /* }
+ .flex-container ul{
+   display: flex;
+ } */
+ .flex-container p{
+   padding: 0 50px;
+   word-spacing: 925px;
+   font-size: 30px;
+   margin-top: 0;
+   text-transform: uppercase;
+ }
+ .blue{
+   color: rgb(243, 143, 129);
+ }
+ .aqua{
+   color: aqua;
+ }
+ .red{
+   color: rgb(100, 155, 206);
  }
