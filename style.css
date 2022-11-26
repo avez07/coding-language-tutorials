@@ -103,8 +103,10 @@ cursor: pointer;
     font-weight: 700;
     font-family: 'Times New Roman', Times, serif;
     text-transform: capitalize;
+    text-decoration: underline 2px double;
     margin: 10px;
     text-align: center;
+    color: #f3f703;
  }
  .list1{
     display: grid;
@@ -112,7 +114,6 @@ cursor: pointer;
     grid-template-columns: auto auto;
     padding-bottom: 20px;
     font-size: 20px;
-    border-bottom:2px solid orange ;
 
  }
  .list2{
@@ -121,7 +122,7 @@ cursor: pointer;
     grid-template-columns: auto auto;
     padding-bottom: 20px;
     font-size: 20px;
-    border-bottom:2px solid orange ;
+    margin-bottom: 0;
 
  }
  .list3{
@@ -155,25 +156,22 @@ cursor: pointer;
    padding-left: 6px;
  }
  .body{
-   padding-left: 20px;
+   padding-left: 30px;
  }
  .p-tage{
-   padding-left: 30px;
+   padding-left: 70px;
  }
  .code-input{
    font-size: 20px;
    font-weight: 500;
    font-family: Arial, Helvetica, sans-serif;
  }
- /* }
- .flex-container ul{
-   display: flex;
- } */
  .flex-container p{
    padding: 0 50px;
    word-spacing: 925px;
    font-size: 30px;
    margin-top: 0;
+  
    text-transform: uppercase;
  }
  .blue{
