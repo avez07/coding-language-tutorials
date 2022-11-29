@@ -164,7 +164,7 @@ cursor: pointer;
  .code-input{
    font-size: 20px;
    font-weight: 500;
-   font-family: Arial, Helvetica, sans-serif;
+   font-family: comic
  }
  .flex-container p{
    padding: 0 50px;
@@ -183,3 +183,5 @@ cursor: pointer;
  .red{
    color: rgb(100, 155, 206);
  }
+ /* page 2 comleted */
+
