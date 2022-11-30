@@ -1,4 +1,9 @@
-
+body{
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+   background-position: center;
+}
 .heading{
     height: 79px;
     width: 1312px;
@@ -184,4 +189,32 @@ cursor: pointer;
    color: rgb(100, 155, 206);
  }
  /* page 2 comleted */
+ .html-head{
+   font-size: 30px;
+   font-weight: 900;
+   font-family: 'Times New Roman', Times, serif;
+   color: yellow;
+   text-transform: uppercase;
+   margin: 10px 25px;
+   height: 40px;
+
+ }
+ .heading-list{
+   display: grid;
+   grid-template-columns: auto auto ;
+   grid-gap: 12px 89px;
+   color: #d9ff9b;
+ }
+ .formating-list{
+   display: grid;
+   grid-template-columns: auto auto auto auto ;
+   grid-gap: 10px 25px;
+   color: #d9ff9b;
+ }
+ ul{
+   font-size: 21px;
+   font-weight: 600;
+   font-family: 'Times New Roman', Times, serif;
+   text-transform: capitalize;
+ }
 
