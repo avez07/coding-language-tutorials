@@ -176,7 +176,6 @@ cursor: pointer;
    word-spacing: 925px;
    font-size: 30px;
    margin-top: 0;
-  
    text-transform: uppercase;
  }
  .blue{
@@ -197,6 +196,7 @@ cursor: pointer;
    text-transform: uppercase;
    margin: 10px 25px;
    height: 40px;
+   text-decoration:underline 2px solid yellow;
 
  }
  .heading-list{
@@ -204,17 +204,13 @@ cursor: pointer;
    grid-template-columns: auto auto ;
    grid-gap: 12px 89px;
    color: #d9ff9b;
+  
  }
  .formating-list{
    display: grid;
    grid-template-columns: auto auto auto auto ;
    grid-gap: 10px 25px;
-   color: #d9ff9b;
+   color: #d9ff9b;   
  }
- ul{
-   font-size: 21px;
-   font-weight: 600;
-   font-family: 'Times New Roman', Times, serif;
-   text-transform: capitalize;
- }
+ 
 
