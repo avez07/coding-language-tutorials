@@ -13,18 +13,19 @@
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
-            height: 100vh;
+            height: 103vh
            
         
            
         }
-        img{
+        .img1{
             position: relative;
             float: right;
             left: 493px;
             bottom: 312px;
             height: 336px;
             width: 522px;
+            box-shadow: -10px 10px 10px black;
         }
         .list-heading{
             font-size: 33px;
@@ -32,9 +33,10 @@
             font-family: 'Times New Roman', Times, serif;
             text-transform: uppercase;
             text-decoration: underline;
+            padding-left: 20px;
         }
         .table-list{
-            font-size: 20px;
+            font-size: 22px;
             text-transform: capitalize;
             font-weight: 500;
             font-family: 'Times New Roman', Times, serif;
@@ -43,7 +45,7 @@
         }
       .table-heading {
        position: relative;
-       left: 1100px;
+       left: 876px;
         bottom: 73px;
         width: 15%;
         font-size: 33px;
@@ -62,10 +64,28 @@
             font-weight: 550;
             font-family: 'Times New Roman', Times, serif;
             line-height: 30px;
-            padding-right: 15px;  
-          
+            padding-right: 15px;         
 }
-       
+.color-span{
+    color: red;
+    text-transform: lowercase;
+    text-decoration: underline;
+    font-weight: 800;
+}
+.img2{
+    position: absolute;
+    top: -28px;
+    right: 860px;
+    height: 318px;
+    width: 456px;
+    box-shadow: 10px 10px 5px black;
+}
+ .color-span1{
+    text-transform: uppercase;
+    font-weight: 900;
+    text-decoration: underline;
+    color: aqua;
+ }      
            
            
            
@@ -80,11 +100,11 @@
         <div class="html-tables">
             <ul class="table-list">
                 <li>A table in HTML consists of table cells inside rows and columns.</li>
-                <li>Each table cell is defined by a < td> and a < /td> tag.</li>
-                <li>Everything between < td> and < /td> are the content of the table cell.</li>
-                <li>td stands for table data.</li>
-                <li>tr stands for table row.</li>
-                <li>th stands for table header.</li>
+                <li>Each table cell is defined by a <span class="color-span">< td></span> and a <span class="color-span">< /td></span> tag.</li>
+                <li>Everything between<span class="color-span"> < td></span> and <span class="color-span">< /td></span> are the content of the table cell.</li>
+                <li><span class="color-span">td</span> stands for table data.</li>
+                <li><span class="color-span">tr</span> stands for table row.</li>
+                <li><span class="color-span">th</span> stands for table header.</li>
             </ul>
             <img src="images/page-4-output.PNG" alt="html table" class="img1">
         </div>
@@ -97,14 +117,18 @@
                 <div class="html-list">
                  <ul>
                     <li> HTML lists allow web developers to group a set of related items in lists.</li>
-                    <li>Unordered HTML List : An unordered list starts with the < ul> tag. Each list item starts with the < li> tag. </li>
+                    <li><span class="color-span1">Unordered HTML List :</span> An unordered list starts with the <span class="color-span">< ul></span> tag. Each list item starts with the <span class="color-span">< li></span> tag. </li>
                     <li>The list items will be marked with bullets (small black circles) by default:</li>
-                    <li>ordered list:The HTML < ol> tag defines an ordered list. An ordered list can be numerical or alphabetical.</li>
-                    <li>An ordered list starts with the < ol> tag. Each list item starts with the < li> tag.</li>
+                    <li><span class="color-span1">ordered list:</span>The HTML <span class="color-span">< ol></span> tag defines an ordered list. An ordered list can be numerical or alphabetical.</li>
+                    <li>An ordered list starts with the <span class="color-span">< ol> </span>tag. Each list item starts with the <span class="color-span">< li></span> tag.</li>
                     <li> The list items will be marked with numbers by default:</li>
 
                  </ul>
+                 <img src="images/page-4-2nd-output.PNG" alt="list output" class="img2">
                 </div>
+                
+
     </section>
+    
 </body>
 </html>
