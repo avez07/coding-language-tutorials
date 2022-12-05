@@ -9,20 +9,78 @@
     <style>
         body{
             background-image: url("background/css\ introduction\ background.jpg");
-            color: aqua;
+            background-size: cover;
+
+            
+            
+            
         }
+        .intro-head{
+            font-size: 30px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    margin: 10px;
+    background: -webkit-linear-gradient(#00d8ff 20%,rgb(8 9 245));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+        }
+        .first-div ul {
+            font-size: 20px;
+            grid-gap: 4px 144px;
+            margin: 20px 15px;
+            font-weight: 600;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            color: rgb(217, 255, 0);
+            
+        }
+        .img-1{padding-left: 367px; height: 70px;       }
+        li{
+            color: rgb(231, 231, 231);
+        }
+     .text{
+        text-align: center;
+        margin: 10px;
+        text-decoration: underline 2px solid rgb(4, 151, 248)
+     }
+     .grid-1 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        font-size: 17px;
+        font-weight: 600;
+        font-family:'Times New Roman', Times, serif
+     }
+     .grid {
+        padding-left: 20px;
+    }
+    .types-intro
+    {
+        font-size: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        color: aquamarine;
+        background: -webkit-linear-gradient(rgb(253, 30, 0), rgb(255, 255, 252));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        text-decoration: underline 2px double rgb(250, 253, 252);
+    }
+    .color-chan{
+        color: rgb(247, 183, 175);
+    }
+       
     </style>
 </head>
 <body>
     <section id="title">
         <div class="css-heading">
-            <img src="heading/css-tutorious.png" alt=" head-title">
+            <img src="heading/css-tutorious.png" class="img-1" alt=" head-title">
         </div>
     </section>
     <section id="introduction">
         <div class="first-div">
             <p class="intro-head">what is css?</p>
-            <ul>
+            <ul class="grid">
                     <li>CSS is the language we use to style a Web page.</li>
                     <li>CSS stands for Cascading Style Sheets</li>
                    <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
@@ -31,10 +89,10 @@
             </ul>
         </div>
     </section>
-    <section id="intro-2">
-        <div class="why-css">
+    <section id="intro-2" style="border-bottom: 2px dotted #00d8ff;">
+        <div class="first-div">
             <p class="intro-head">css solves many problems</p>
-            <ul>
+            <ul class="grid">
                 <li>HTML was NEVER intended to contain tags for formatting a web page!</li>
 
                    <li> HTML was created to describe the content of a web page, like:<br>
@@ -42,14 +100,65 @@
                    < h1>This is a heading< /h1></li>
                     
                    <li>When tags like < font>, and color attributes were added to the HTML 3.2 specification
-                    , it started a nightmare for web developers. Development of large websites, where
-                     fonts and color information were added to every single page, became a long and 
-                     expensive process.</li>
+                    , it started a nightmare for web developers.</li>
                     
                     <li>To solve this problem, the World Wide Web Consortium (W3C) created CSS.</li>
                     
-                    <li>CSS removed the style formatting from the HTML page! </li>
+                    
             </ul>
+        </div>
+    </section>
+    <section id="types">
+        <div class="intro-head">
+            <p class="text">type of css</p>
+        </div>
+        <div class="grid-1">
+            <div>
+                <div class="types-intro">
+                    <p>inline css</p>
+                </div>
+                <div class="para0">
+                    <ul>
+                        <li>An inline CSS is used to apply a unique style to a single HTML element.</li>
+                        <li> An inline CSS uses the style attribute of an HTML element.</li>
+                        <li>syntax:<br><span class="color-chan"><span style="padding-left: 50px;">< htmltag style="cssproperty1:value; cssproperty2:value;"> < /htmltag>    
+                            </span></span>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div>
+            <div class="types-intro">
+                <p>internal css</p>
+            </div>
+            <div class="para0">
+                <ul>
+                    <li>An internal CSS is used to define a style for a single HTML page.</li>
+                    <li> An internal CSS is defined in the < head> section of an HTML page, within a < sty le> element.</li>
+                    <li>syntax:<span class="color-chan"><br><span style="padding-left: 50px;">< head><br><span style="padding-left:70px ;">< sty le><br>body{<br>background-color:red;<br>}<br><span style="padding-left: 70px;">< /style></span><br><span style="padding-left: 50px;">< /head></span>      
+                    </span>
+                    </li>
+
+                </ul>
+            </div>
+            </div>
+            <div>
+            <div class="types-intro">
+                <p>external css</p>
+            </div>
+            <div class="para0">
+                <ul>
+                    <li>An external style sheet is used to define the style for many HTML pages.</li>
+                    <li> To use an external style sheet, add a link to it in the < head> section of each HTML page</li>
+                    <li>syntax:<br><span class="color-chan" style="padding-left: 50px;"> < link rel="stylesheet" href="style.css">    
+                        </span>
+                    </li>
+
+                </ul>
+            </div>
+            </div>
+            
         </div>
     </section>
     
