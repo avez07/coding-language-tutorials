@@ -5,8 +5,103 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS TUTORIALS PAGE 3</title>
+    
+    <style>
+        body{
+            background-image: url("background/page71.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 110vh;
+            width: auto;
+        }
+        .head{
+            font-size: 35px;
+            font-weight: 900;
+            font-family: 'Times New Roman', Times, serif;
+            text-transform: uppercase;
+            margin: 10px 15px;
+            /* color: red; */
+            background:-webkit-linear-gradient(rgb(17, 17, 17) ,  rgb(8 35 183)65%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-decoration: underline 3px solid rgb(20, 2, 99);
+        }
+        .property1{
+            font-size: 20px;
+            margin: 0;
+            font-weight: 700;
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(10, 10, 10);
+            text-transform: capitalize;
+        }
+        .change-span{
+            background:-webkit-linear-gradient(266deg,rgb(10, 10, 10) ,  rgb(247, 3, 3)70%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 900;
+            font-size: 24px;
+            text-transform: lowercase;
+        }
+        li{
+            line-height: 36px;
+        }
+    </style>
 </head>
 <body>
-    
+    <section id="css-colors">
+        <div class="bg-property">
+            <div class="head">
+                <p style="margin: 0 20px;">css background property</p>
+            </div>
+            <div class="property1">
+                <ul>
+                    <li>The <span class="change-span">background-color</span> property specifies the background color of an element.</li>
+                    <li>The <span class="change-span">background-image</span> property specifies an image to use as the background of an element.<br>
+                        By default, the image is repeated so it covers the entire element.</li> 
+                        <li>the <span class="change-span">background-image</span> property repeats an image both horizontally and vertically.
+                            <dd><span class="change-span">-background-repeat: repeat-x;</span> repeat the image horizontally</dd>
+                            <dd><span class="change-span">-background-repeat: repeat-y;</span> repeat the image vertically</dd>
+                        </li>  
+                </ul>
+               
+                   
+            </div>
+        </div>
+    </section>
+    <section id="attachment" style="width:65% ;">
+        <div class="bg-attach">
+            <div class="head">
+                <p style="margin: 10px 20px;">CSS background-attachment</p>
+            </div>
+            <div  class="property1">
+                <ul>
+                    <li>The <span class="change-span">background-attachment </span>property specifies whether the background image should <span class="change-span">scroll </span>or be <span class="change-span">fixed</span> (will not scroll with the rest of the page):</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="color">
+        <div>
+            <div class="head">
+                <p style="margin: 10px 20px;">CSS Text Color</p>
+            </div>
+            <div class="property1">
+                <p style="padding-left: 40px;">You can set the color of text:</p>
+            </div>
+        </div>
+    </section>
+    <section id="rgb">
+        <div>
+            <div class="head" >
+                <p style="margin: 10px 20px;">CSS RGB Colors</p>
+            </div>
+            <div class="property1" style="margin:10px  20px ;">
+                <p style="margin: 0;">In CSS, a color can be specified as an RGB value, using this formula:
+
+                   <p style="margin:0 ;"> <span class="change-span">rgb(red, green, blue)</span></p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
