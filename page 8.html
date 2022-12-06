@@ -23,6 +23,26 @@
             -webkit-text-fill-color: transparent; */
             text-decoration: underline 2px double white;
         }
+        .img1{
+            height: 240px;
+            float: right;
+            padding-right: 20px;
+            padding-bottom: 20px;
+        }
+        li {
+            color:#f5bccc;
+            font-size: 20px;
+            font-weight: 600;
+            font-family: 'Times New Roman', Times, serif;
+            text-transform: capitalize;
+        }
+        .change-span{
+            color: yellow;
+            text-transform: uppercase;
+            /* text-decoration: underline 2px solid yellow; */
+            font-size: 22px;
+            font-weight:800 ;
+        }
     </style>
 </head>
 <body>
@@ -32,7 +52,22 @@
                 <p style="margin: 10px 20px;">css box modal</p>
             </div>
             <div class="info1">
+                <ul>
+                    <li>In CSS, the term "box model" is used when talking about design and layout.</li>
+                </ul>
+                <img src="images/page 8.JPG" alt="box modal " class="img1">
+            </div>
+            <div class="head">
+                <p>Explanation of the different parts:</p>
 
+            </div>
+            <div class="info1" style="border-bottom: 2px dashed #fff;">
+                <ul>
+                    <li><span class="change-span">Content -</span> The content of the box, where text and images appear</li>
+                        <li><span class="change-span">Padding -</span> Clears an area around the content. The padding is transparent</li>
+                        <li><span class="change-span">Border -</span> A border that goes around the padding and content</li>
+                        <li><span class="change-span">Margin -</span> Clears an area outside the border. The margin is transparent</li>
+                </ul>
             </div>
         </div>
     </section>
