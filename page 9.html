@@ -11,10 +11,132 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
+        .p1{
+            font-size:33px ;
+            font-weight: 900;
+            font-family: 'Times New Roman', Times, serif;
+            text-transform: uppercase;
+            text-align: center;
+            background:-webkit-linear-gradient(rgb(253, 19, 2), rgb(8, 8, 8));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            /* text-decoration: underline 2px solid white; */
+        }
+        .info{
+            font-size: 20px;
+            font-weight: 600;
+            font-family: 'Times New Roman', Times, serif;
+            text-transform: capitalize;
+            color: #131313;
+            
+        }
+        .change-span{
+            color: red;
+            text-transform: lowercase;
+            
+        }
+        #remain{
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+        #remain li{
+            line-height: 35px;
+        }
     </style>
 </head>
 <body>
-    <section>
+    <section id="remain">
+        <div class="css">
+            <div class="p1">
+                <p>css font apply</p>
+            </div>
+            <div class="info">
+                <ul>
+                    <li><span class="change-span">font-size:20px;</span> - size of the font</li>
+                    <li><span class="change-span">font-weight:bold;</span> - bold text</li>
+                    <li><span class="change-span">font-family: serif;</span> -  face of  font</li>
+                    <li><span class="change-span">font-style:italic;</span> - italic text</li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="css">
+            <div class="p1">
+                <p>css transformation</p>
+            </div>
+            <div class="info">
+                <ul>
+                    <li><span class="change-span"> text-transform: uppercase;</span> - UPPERCASE</li>
+                    <li><span class="change-span"> text-transform: lowercase;</span> - lowercase</li>
+                    <li><span class="change-span"> text-transform: capitalize;</span> - Capitalize</li>
+                    <li><span class="change-span"> text-transform: none;</span> - remove default tranformation</li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="css">
+            <div class="p1">
+                <p>css decoration</p>
+            </div>
+            <div class="info">
+                <ul>
+                    <li><span class="change-span">text-decoration: underline;</span> - <u>underline</u></li>
+                    <li><span class="change-span">text-decoration: line-through;</span> - <del>line-through</del></li>
+                    <li><span class="change-span">text-decoration: overline;</span> - <span style="text-decoration: overline;">overline</span></li>
+                    <li><span class="change-span">text-decoration: none;</span> - italic text</li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="css">
+            <div class="p1">
+                <p>css text letter</p>
+            </div>
+            <div class="info">
+                <ul>
+                    <li><span class="change-span">  letter-spacing: 22px;</span> - between letters</li>
+                    <li><span class="change-span">word-spacing: 20px;</span> - between words</li>
+                    <li><span class="change-span"> line-height: 0px;</span> - between line</li>
+                    <li><span class="change-span">text-align: center;</span> - align center</li>
+                    <li><span class="change-span">text-align: left;</span> - align left</li>
+                    <li><span class="change-span">text-align: right;</span> - align right</li>
+                </ul>
+            </div>
+        </div>
+        <div class="css">
+            <div class="p1">
+                <p>css list</p>
+            </div>
+            <div class="info">
+                <ul style="padding-left:137px ;">
+                    <li><span class="change-span">list-style-type: square;</span></li> 
+                    <li><span class="change-span">list-style-image: url("images/right.png");</span></li> 
+                    <li><span class="change-span">list-style: none;</span> </li>
+                    <li><span class="change-span">list-style-position: inside;</span> </li>
+                    <li><span class="change-span">list-style-position: outside;</span> - </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="css">
+            <div class="p1">
+                <p>css position</p>
+            </div>
+            <div class="info">
+                <ul>
+                    <li><span class="change-span">position:static;</span> - default</li>
+                    <li><span class="change-span">position:relative;</span> - effect top bottom left right</li>
+                    <li><span class="change-span">position:absolute;</span> - effect top bottom left right</li>
+                    <li><span class="change-span">position:fixed;</span> - fixed top of body</li>
+                    <li><span class="change-span">position:sticky;</span> - italic text</li>
+
+                </ul>
+            </div>
+        </div>
+       
+        
+       
+            
         
     </section>
 </body>

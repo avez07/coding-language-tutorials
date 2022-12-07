@@ -18,9 +18,6 @@
             font-family: 'Times New Roman', Times, serif;
             text-transform: uppercase;
             color: white;
-            /* background:-webkit-linear-gradient(black, white);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent; */
             text-decoration: underline 2px double white;
         }
         .img1{
@@ -28,6 +25,9 @@
             float: right;
             padding-right: 20px;
             padding-bottom: 20px;
+            position: relative;
+            bottom: 64px;
+
         }
         li {
             color:#f5bccc;
@@ -35,6 +35,7 @@
             font-weight: 600;
             font-family: 'Times New Roman', Times, serif;
             text-transform: capitalize;
+            
         }
         .change-span{
             color: yellow;
@@ -42,6 +43,29 @@
             /* text-decoration: underline 2px solid yellow; */
             font-size: 22px;
             font-weight:800 ;
+        }
+        .info1 p{
+            color:#f5bccc;
+            font-size: 20px;
+            font-weight: 600;
+            font-family: 'Times New Roman', Times, serif;
+            text-transform: capitalize;
+        }
+        .mar{
+            color: yellow;
+            text-transform: lowercase;
+            font-size: 22px;
+            font-weight:800 ;
+
+        }
+        #margin{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-gap: 30px;
+            width: 100%;
+        }
+        #margin .head p{
+            margin-top: 0;
         }
     </style>
 </head>
@@ -67,6 +91,55 @@
                         <li><span class="change-span">Padding -</span> Clears an area around the content. The padding is transparent</li>
                         <li><span class="change-span">Border -</span> A border that goes around the padding and content</li>
                         <li><span class="change-span">Margin -</span> Clears an area outside the border. The margin is transparent</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="margin">
+        <div>
+            <div class="head">
+                <p>css margin</p>
+            </div>
+            <div class="info1">
+                <p>
+                    CSS has properties for specifying the margin for each side of an element:
+                </p>
+                <ul>
+                        <li class="mar">margin-right</li>
+                        <li class="mar">margin-left</li>
+                        <li class="mar">margin-bottom</li>
+                        <li class="mar">margin-left</li>
+
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div class="head">
+                <p>css padding</p>
+            </div>
+            <div class="info1">
+                <p>CSS has properties for specifying the padding for each side of an element:</p>
+                <ul>
+                    <li class="mar">padding-left</li>
+                    <li class="mar">padding-right</li>
+                    <li class="mar">padding-top</li>
+                    <li class="mar">padding-bottom</li>
+
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div class="head">
+                <p>CSS BORDER</p>
+            </div>
+            <div class="info1">
+                <p>CSS has properties for specifying the padding for each side & all side of an element:</p>
+                <ul>
+                    <li class="mar">border-left</li>
+                    <li class="mar">border-right</li>
+                    <li class="mar">border-top</li>
+                    <li class="mar">border-bottom</li>
+
                 </ul>
             </div>
         </div>
