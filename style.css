@@ -1,7 +1,7 @@
 body{
    background-size: cover;
    background-repeat: no-repeat;
-   /* height: 100vh; */
+   
  
    font-family: 'Times New Roman', Times, serif;
 }
@@ -221,3 +221,22 @@ cursor: pointer;
    margin: 0 20px;
    
  }
+ .btn1{
+  margin-left: 462px;
+ }
+ 
+.button1{
+  padding: 10px 10px;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  border: none;
+  cursor: pointer;
+ 
+}
+.button1:hover{
+  padding: 10px 10px;
+  background: linear-gradient(to bottom, #cefc04 0%, #fd9904 100%);
+  border: none;
+  cursor: pointer;
+  border: 2px solid black;
+ 
+}
