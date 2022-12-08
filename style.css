@@ -213,5 +213,11 @@ cursor: pointer;
    grid-gap: 10px 25px;
    color: #d9ff9b;   
  }
- 
-
+ .head{
+   font-size: 33px;
+   font-weight: 900;
+  
+   text-transform: uppercase;
+   margin: 0 20px;
+   
+ }

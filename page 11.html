@@ -31,6 +31,29 @@
             grid-template-columns: auto auto ;
             font-size: 22px;
             font-weight: 600;
+            grid-gap: 10px 20px;
+        }
+        .chamge-span{
+            color: red;
+            text-transform: lowercase;
+            font-size: 25px;
+        }
+        .info1 ul{
+            display: grid;
+            grid-template-columns: auto auto ;
+            font-size: 22px;
+            font-weight: 600;
+            grid-gap: 10px 20px;
+        }
+        .info2{
+            font-size: 22px;
+            font-weight: 600;
+            display: grid;
+            grid-template-columns: auto auto ;
+        }
+        .list11 ul{
+            line-height: 35px;
+            list-style-type: square;
         }
     </style>
 </head>
@@ -43,11 +66,56 @@
         <div class="info">
             <p>-JavaScript can "display" data in different ways:</p>
             <ul>
-                <li>Writing into an HTML element, using innerHTML.</li>
-                   <li>Writing into the HTML output using document.write().</li>
-                   <li>Writing into an alert box, using window.alert().</li>
-                   <li>Writing into the browser console, using console.log().</li>
+                <li>Writing into an HTML element, using <span class="chamge-span">innerHTML.</span></li>
+                   <li>Writing into the HTML output using <span class="chamge-span">document.write().</span></li>
+                   <li>Writing into an alert box, using<span class="chamge-span"> window.alert().</span></li>
+                   <li>Writing into the browser console, using <span class="chamge-span">console.log().</span></li>
             </ul>
+        </div>
+    </section>
+    <section id="coment">
+        <div class="head">
+            <p>JavaScript Comments</p>
+        </div>
+        <div class="info1">
+            <ul>
+                <li>JavaScript comments can be used to explain JavaScript code, and to make it more readable.</li>
+
+                   <li>JavaScript comments can also be used to prevent execution, when testing alternative code.</li>
+            </ul>
+        </div>
+        <div class="info2">
+            <div>
+                <div class="head">
+                    <p>Single Line Comments</p>
+                </div>
+                <div class="list11">
+                    <ul>
+                        <li>Single line comments start with <span class="chamge-span">//</span></li>
+
+                            <li>Any text between <span class="chamge-span">//</span> and the end of the line will be ignored by JavaScript (will not be executed).</li>
+
+                           <li> This example uses a single-line comment before each code line:</li>
+                           <li>syntax:<span class="chamge-span" style="text-transform: uppercase;">//This is SINGLE LINE comment</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div class="head">
+                    <p>Multi-line Comments</p>
+                </div>
+                <div class="list11">
+                    <ul>
+                        <li>Multi-line comments start with <span class="chamge-span">/*</span> and end with <span class="chamge-span">*/</span>.</li>
+
+                           <li>Any text between <span class="chamge-span">/*</span> and <span class="chamge-span">*/ </span>will be ignored by JavaScript.</li>
+
+                            <li>This example uses a multi-line comment (a comment block) to explain the code:</li>
+                            <li>syntax: <span class="chamge-span" style="text-transform: uppercase;">/*This Multiline Comment*/</span></li>
+                    </ul>
+
+                </div>
+            </div>
         </div>
     </section>
 </body>
