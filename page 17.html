@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C PROGRAMING PAGE 4</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-image: url("background/page\ 17.jpg");
+        }
+        .info{
+            font-size: 22px;
+            font-weight: 600;
+            color: #af1414;
+        }
+        .info p{
+            margin: 10px 0;
+        }
+        .change-span{
+            color: purple;
+        }
+        img{
+            float: right;
+            margin: 0 20px;
+            padding: 2px;
+            border: 5px solid black;
+            box-shadow: -5px 5px 3px black;
+        }  
+    </style>
+</head>
+<body>
+    <section>
+        <div class="head">
+            <p style="margin: 20px 0; text-decoration: underline 3px solid black;">C Variables</p>
+        </div>
+        <div class="info">
+            <p style="padding-left: 30px; color: rgb(20 14 110);"> -Variables are containers for storing data values, like numbers and characters.</p>
+
+               <p style="padding-left: 40px; color: rgb(20 14 110);"> -In C, there are different types of variables (defined with different keywords), for example:</p>
+            <ul style="margin: 10px 0;">
+                <li><span class="change-span">int </span>- stores integers (whole numbers), without decimals, such as <span class="change-span">123</span> or<span class="change-span">-123</span></li>
+                    <li><span class="change-span">float</span> - stores floating point numbers, with decimals, such as<span class="change-span">19.99</span> or <span class="change-span">-19.99</span></li>
+                   <li> <span class="change-span">char</span> - stores single characters, such as <span class="change-span">'a'</span> or <span class="change-span">'B'</span>. Char values are surrounded by single quotes</li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="head">
+            <p style="margin: 20px 0; text-decoration: underline 3px solid black;">Format Specifiers</p>
+        </div>
+        <div class="info">
+            <img src="images/page 17.JPG" alt="page 17 output">
+            <ul style="margin: 10px 0; ">
+                <li>Format specifiers are used together with the<span class="change-span">printf()</span> function to tell the compiler
+                     what type of data the variable is storing. It is basically a placeholder for the
+                      variable value.</li><br>
+
+                    <li>A format specifier starts with a percentage sign <span class="change-span">%</span>, followed by a character.</li><br>
+                    
+                   <li>For example, to output the value of an int variable, you must use the format 
+                    specifier <span class="change-span">%d</span> or <span class="change-span">%i</span> surrounded by double quotes, inside the <span class="change-span">printf()</span> function.</li><br>
+                    <li>To print other types, use <span class="change-span">%c</span> for <span class="change-span">char</span> and <span class="change-span">%f </span>for <span class="change-span">float</span>.</li><br>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>

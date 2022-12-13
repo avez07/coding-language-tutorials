@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C-PROGRAMING TUTORIALS PAGE 2</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-image: url("background/page\ 16.jpg");
+        }
+        .img2{
+            float: right;
+            height: 200px;
+            margin-right: 20px;
+            margin-left: 40px;
+            position: relative;
+            bottom: 40px;
+            border: 3px solid white;
+            padding: 5px;
+            box-shadow: -6px 6px 10px rgb(248, 247, 247);
+        }
+        .head p{
+            color: white;
+            text-decoration: underline 2px solid white;
+            margin: 20px 0;
+        }
+        .bold{
+            font-size: 22px;
+            font-weight: 700;
+            color: rgb(189, 241, 129);
+            padding-bottom: 10px;
+        }
+        .info p{
+            padding-left: 20px;
+            font-size: 20px;
+            font-weight: 600;
+            color: rgb(226, 162, 89);
+            margin: 10px 0;
+            word-spacing: 5px;  
+        }
+        .change-span{
+            /* color: rgb(115, 243, 237); */
+            color: rgb(255, 180, 180);
+        }
+        .info ul{
+            padding-left: 20px;
+            font-size: 20px;
+            font-weight: 600;
+            color: rgb(226, 162, 89);
+            margin: 10px 20px;
+            word-spacing: 5px;  
+        }
+    </style>
+</head>
+<body>
+    <section style="border-bottom: dashed  rgb(189, 241, 129);">
+        <div class="head">
+            <p>c syntax</p>
+        </div>
+        <div class="info">
+            <img src="images/page 16-1.JPG" alt="input" class="img2">
+           <p><span class="bold">Line 1:</span><span class="change-span"> #include< stdio.h></span> is a header file library that lets us work with input and output
+             functions, such as <span class="change-span">printf() </span>(used in line 4). Header files add functionality to C programs.</p>
+
+           <p><span class="bold">Line 2:</span> A blank line. C ignores white space. But we use it to make the code more readable.</p>
+
+           <p><span class="bold">Line 3:</span> Another thing that always appear in a C program, is<span class="change-span"> main()</span>. This is called a 
+            function. Any code inside its curly brackets <span class="change-span">{}</span> will be executed.</p>
+           <p><span class="bold">Line 4:</span> printf()</span> is a function used to output/print text to the screen. In our example it
+             will output <span class="change-span">"Hello World".</p>
+           <p><span class="bold">Line 5:</span> <span class="change-span">return 0</span> ends the <span class="change-span">main()</span> function</p>
+           <p><span class="bold">Line 6:</span> Do not forget to add the closing curly bracket <span class="change-span">}</span> to actually end the main function.</p>
+
+
+        </div>
+    </section>
+    <section>
+        <div class="head">
+            <p>C Output (Print Text)</p>
+        </div>
+        <div class="info">
+            <ul>
+                <li>To output values or print text in C, you can use the <span class="change-span">printf()</span> function:</li>
+                <li>You can use as many <span class="change-span">printf()</span> functions as you want. However, note that it does not 
+                    insert a new line at the end of the output:</li>
+            </ul>
+        </div>
+        <div class="head">
+            <p>C New Lines</p>
+        </div>
+        <div class="info">
+            <ul>
+                <li>To insert a new line, you can use the <span class="change-span">(\n)</span> character.</li>
+                <li>You can also output multiple lines with a single <span class="change-span">printf()</span> function. However,
+                     be aware that this will make the code harder to read.</li>
+                     <li> Two <span class="change-span">\n</span> characters after each other will create a blank line.</li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>

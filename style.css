@@ -1,5 +1,8 @@
+@media only screen and (min-width: 992px){
 body{
-   background-size: cover;
+   /* background-size: cover; */
+   background-size: 1400px 992px;
+   
    background-repeat: no-repeat;
    font-family: 'Times New Roman', Times, serif;
 }
@@ -237,4 +240,5 @@ cursor: pointer;
   cursor: pointer;
   border: 2px solid black;
  
+}
 }
